@@ -1,0 +1,206 @@
+/* Global Page Style */
+body{
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#4facfe,#00f2fe);
+  margin:0;
+  padding:0;
+}
+
+/* Main container */
+.main-container{
+  width:80%;
+  margin:auto;
+  background:white;
+  margin-top:40px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  height:90vh;
+}
+
+/* Main Title */
+.main-title{
+  text-align:center;
+  font-size:32px;
+  font-weight:bold;
+  color:#ffffff;
+  background:linear-gradient(90deg,#667eea,#764ba2);
+  padding:12px;
+  border-radius:8px;
+  margin:15px;
+  letter-spacing:1px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Top section (Add Student) */
+.top-section{
+  height:40%;
+  padding:20px;
+  border-bottom:2px solid #ccc;
+  background:#f5f5f5;
+}
+
+.top-section h2{
+  text-align:center;
+  color:#333;
+}
+
+/* Bottom section (Student List) */
+.bottom-section{
+  height:60%;
+  padding:20px;
+  overflow:auto;
+}
+
+.bottom-section h2{
+  text-align:center;
+  margin-bottom:15px;
+}
+
+/* Table styling */
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+table th{
+  background:#333;
+  color:white;
+  padding:10px;
+}
+
+table td{
+  padding:10px;
+  text-align:center;
+  border-bottom:1px solid #ddd;
+}
+
+/* Edit Button */
+.edit{
+  background:#2196F3;
+  color:white;
+  border:none;
+  padding:6px 12px;
+  margin-right:5px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.edit:hover{
+  background:#0b7dda;
+}
+
+/* Delete Button */
+.delete{
+  background:#f44336;
+  color:white;
+  border:none;
+  padding:6px 12px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.delete:hover{
+  background:#d32f2f;
+}
+
+/* Excel Export Button */
+.excel-btn{
+  background:#673AB7;
+  color:white;
+  padding:8px 15px;
+  border:none;
+  margin-bottom:10px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.excel-btn:hover{
+  background:#512da8;
+}
+
+/* Pagination */
+.pagination{
+  margin-top:20px;
+  text-align:center;
+}
+
+.pagination button{
+  margin:5px;
+  padding:6px 12px;
+  border:none;
+  border-radius:4px;
+  background:#2196F3;
+  color:white;
+  cursor:pointer;
+}
+
+.pagination button:hover{
+  background:#1976d2;
+}
+
+/* Form box (smaller size) */
+.form-box{
+  width:350px;
+  margin:auto;
+  background:white;
+  padding:15px;
+  border-radius:8px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+.form-box h3{
+  text-align:center;
+  margin-bottom:15px;
+}
+
+/* Student Form */
+.student-form{
+  display:flex;
+  flex-direction:column;
+}
+
+/* Form Row */
+.form-row{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:10px;
+}
+
+.form-row label{
+  width:70px;
+  font-weight:bold;
+}
+
+/* Input Fields */
+.form-row input{
+  flex:1;
+  padding:6px;
+  border-radius:4px;
+  border:1px solid #ccc;
+  font-size:13px;
+}
+
+/* Submit Button */
+.student-form button{
+  margin-top:10px;
+  padding:8px;
+  background:#4CAF50;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  font-size:13px;
+}
+
+.student-form button:hover{
+  background:#45a049;
+}
+
+.pagination button.active{
+  background:#ff9800;   /* highlight color */
+  color:white;
+  font-weight:bold;
+}
