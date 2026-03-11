@@ -8,7 +8,7 @@ const app = express();
 
 // Enable CORS
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://student-details-frontend.onrender.com",
   methods: ["GET","POST","PUT","DELETE"],
   allowedHeaders: ["Content-Type"]
 }));
