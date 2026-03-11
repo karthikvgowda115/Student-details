@@ -13,7 +13,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const studentsPerPage = 5;
 
-  const API = "http://localhost:5001/students";
+  const API = "https://student-details-csf8.onrender.com";
 
   useEffect(() => {
     fetchStudents();
