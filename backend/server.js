@@ -16,7 +16,7 @@ app.use(cors({
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect("mongodb://127.0.0.1:27017/studentdb")
+mongoose.connect("mongodb+srv://karthik:karthik123@cluster0.jwekdv3.mongodb.net/studentdb")
 .then(() => {
   console.log("✅ MongoDB Connected");
 })
